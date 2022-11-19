@@ -1,0 +1,235 @@
+20221029	18:27:19	a7b5e748-3492-4361-a458-161ce8bee146	ReferenceError: user is not defined	POST	/users	undefined
+20221029	18:28:31	660ff149-2106-4783-a272-b8c9977b5033	ReferenceError: user is not defined	POST	/users	undefined
+20221029	18:39:04	0af1932f-0bf7-4a52-b9a6-2bf34f535f6c	SyntaxError: Unexpected string in JSON at position 30	POST	/users	undefined
+20221029	18:43:15	6b9bfb39-2b50-4df5-bc2c-85a052f4c612	SyntaxError: Unexpected token } in JSON at position 124	PATCH	/users	undefined
+20221029	22:08:48	ae21ef89-09f5-4859-bbfb-bd2f7914c079	Error: Not allowed by CORS	POST	/users	http://127.0.0.1:5000
+20221029	22:32:11	4adf662a-2ce8-411e-b882-f750716bba70	TypeError: user.matchPassword is not a function	POST	/users/login	http://127.0.0.1:5000
+20221029	22:34:10	3617d63c-70e9-40d4-bf34-681899c92b7d	TypeError: user.matchPassword is not a function	POST	/users/login	http://127.0.0.1:5000
+20221029	22:35:44	713c994b-fef2-4830-9520-1c642b25fb2c	TypeError: user.matchPassword is not a function	POST	/users/login	http://127.0.0.1:5000
+20221029	22:37:32	c0c6cff5-e521-42f3-8b3c-653d4a8073e6	TypeError: user.matchPassword is not a function	POST	/users/login	http://127.0.0.1:5000
+20221029	22:43:47	4807e5c8-46b4-407e-860a-fb6618629c53	ReferenceError: bcrypt is not defined	POST	/users/login	http://127.0.0.1:5000/
+20221029	22:44:55	33fc9ea4-e7e3-41a2-b2b5-0b02b3bfd7a7	ReferenceError: bcrypt is not defined	POST	/users/login	http://127.0.0.1:5000/
+20221029	22:47:46	c20116e6-9634-4b2c-a7e0-2e3f3bf248f8	ReferenceError: bcrypt is not defined	POST	/users/login	http://127.0.0.1:5000/
+20221029	22:53:46	c05a2867-205e-41c1-98ea-a5b0325668ca	ReferenceError: bcrypt is not defined	POST	/users/login	http://127.0.0.1:5000/
+20221030	11:23:08	4ccf29de-1a02-40fd-aae8-58823f2b7431	ReferenceError: user is not defined	POST	/users/register	http://127.0.0.1:5000/
+20221030	11:23:24	72383413-0b00-411f-ba71-aed1dcdaf3f4	ReferenceError: user is not defined	POST	/users/register	http://127.0.0.1:5000/
+20221030	11:25:43	f5fce431-9256-4e8a-94a3-5bdfa6f50962	ReferenceError: user is not defined	POST	/users/register	http://127.0.0.1:5000/
+20221030	11:26:04	7403a3b1-7471-468a-8aaf-18935847906b	ReferenceError: foundUser is not defined	POST	/users/register	http://127.0.0.1:5000/
+20221030	14:26:58	447c5187-a675-4004-af26-0ed1a3fc7e99	ReferenceError: foundUser is not defined	POST	/register	undefined
+20221030	15:24:43	3c282b94-7c7e-437d-882a-15d8d1b69378	Error: Not allowed by CORS	GET	/refresh	http://localhost:3000
+20221030	15:24:44	3b8da525-bee3-4994-a7eb-2c8e96f46e18	Error: Not allowed by CORS	GET	/refresh	http://localhost:3000
+20221030	15:24:45	7339197a-8311-48a6-8d63-ed1beccad75b	Error: Not allowed by CORS	GET	/refresh	http://localhost:3000
+20221030	15:26:08	ac054edd-882b-4d76-8f46-6199f0484bf6	Error: Not allowed by CORS	POST	/users/login	http://127.0.0.1:5000/
+20221101	19:14:51	7f4c6a78-7192-439d-85f9-2ced02bcec9e	ReferenceError: user is not defined	GET	/users	undefined
+20221101	19:47:56	1f7cb53f-195b-4905-a1ad-a17df76c8114	Error: Not allowed by CORS	POST	/auth	http://127.0.0.1:5000/
+20221101	19:49:12	fa82389c-cf06-4b28-a731-83120e3170a3	Error: Not allowed by CORS	POST	/auth	http://127.0.0.1:5000/
+20221101	19:52:46	e4fb61cf-d14b-4cc6-96f5-376f33249f5a	Error: Not allowed by CORS	POST	/auth	http://127.0.0.1:5000/
+20221101	19:54:26	3def1666-16de-49fd-b0eb-1d8c9b1a3c9d	Error: Not allowed by CORS	POST	/auth	http://127.0.0.1:5000/
+20221101	19:57:12	1067fbb4-333f-42b1-b5e7-950938bcbafa	Error: Not allowed by CORS	POST	/auth	http://127.0.0.1:5000/
+20221101	19:57:13	9b4fe5d6-26f2-4a2c-bf9d-f60cb28ac133	Error: Not allowed by CORS	POST	/auth	http://127.0.0.1:5000/
+20221101	20:00:18	1299dc13-8ab2-4916-9d9b-a76f265d48b0	Error: Not allowed by CORS	POST	/auth	http://127.0.0.1:5000/
+20221101	20:02:06	70272bae-2ae8-42f0-b655-dfbb48665dfd	Error: Not allowed by CORS	POST	/auth	http://127.0.0.1:5000/
+20221101	20:06:59	f282112c-7cbf-42c5-9abb-f3c0116a084e	Error: Not allowed by CORS	OPTIONS	/auth	http://localhost:3000
+20221104	18:46:10	52deaf24-f15e-41a6-aab0-070d1d49452d	Error: Not authorized, token failed	GET	/users/profile	undefined
+20221104	18:52:47	60981e95-39c5-431c-a702-0ebdbcb517b7	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	18:54:26	931abb19-0bdb-45cd-9957-bbf8228bc62a	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	18:54:27	6a29fd53-7a52-44f8-9b48-7e70e056067d	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	18:55:28	860e0df0-0279-468e-867e-f6f396b4fe05	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	18:56:00	b77e5a19-95c8-4c80-a757-45c9bda63090	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	18:57:42	0b822429-0ac6-485c-aa8f-5b7c98079cf9	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	18:58:13	56845b8c-acbe-4344-8346-32d5a38a412a	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	18:58:35	65878647-fdb5-44b6-bc1e-b96abc22ae08	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	18:58:45	457ae1ed-a292-4b25-b097-d93bbfb777f8	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	19:22:52	80b5e444-cbbf-48cf-80f3-aad17c003163	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	19:23:01	392ed109-9931-44e5-a249-67f37aa5a97b	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	19:23:28	5bb98001-5c67-4741-bfcd-22787999f5cf	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	19:24:20	4edc22f8-4db5-468e-a6c2-179cf20a32cc	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	19:24:39	a4aeb4a4-5203-4195-b5a4-99f502cf253e	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	19:25:33	af6d2d27-ab8d-448d-a060-fe02d036dd9e	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	19:26:02	ffd63668-90ba-4b46-bd91-bbd921861f8e	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	19:27:09	e9971422-dfa2-4849-a1dd-98c19e88fe3a	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	19:27:25	bf963bce-ab4e-4542-ad5b-9b6e8fa3f1f9	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	19:30:50	aa5476a0-28df-4e96-8fd2-14bfd740858c	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	19:31:02	db29546b-26cd-4ec9-a53a-b0558c788ec8	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	19:31:42	594dae1e-1feb-4bea-a546-b7917118fa4f	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221104	19:34:04	22e15d01-04c4-4abc-9499-0be3347b1599	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221105	09:22:47	b49e71fa-2aab-4edc-a9a5-d48bf164208e	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	09:40:16	b80a74c9-2e42-47c9-9d0f-3434a2ec2fff	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	09:40:18	a422a940-1139-45cd-9cf0-fe21ab38935e	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	09:40:25	48cbe416-8f0c-4e42-80a5-472ae9fb8fb8	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	09:41:03	60eac2e3-f312-4747-a50e-06510002c702	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	09:41:04	2cb5449b-a32d-4bcb-99cc-3ad8fcb69a37	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	09:41:08	103d02da-bcb2-4f4f-b0bf-87f8a35016ad	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	09:57:39	f56b5dd6-9be0-42f9-a091-aa0adf5b2892	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	09:57:41	7cbf8c71-0074-4b8e-9a76-880e66665c8e	Error: Not authorized, token failed	POST	/favorites/62cc640e30d5b70ac3940373	http://localhost:3000
+20221105	09:57:46	40be5650-e0f6-4032-89e9-278136aeba32	Error: Not authorized, token failed	POST	/favorites/62cc640e30d5b70ac3940373	http://localhost:3000
+20221105	09:58:29	fe0ca3f3-c0d3-4ba7-8b15-5331872a2cf2	Error: Not authorized, token failed	POST	/favorites/62cc640e30d5b70ac3940373	http://localhost:3000
+20221105	10:23:24	d628cadb-9f7e-4d27-b117-1aba7485fd36	Error: Not authorized, token failed	POST	/favorites/62cc63ae30d5b70ac394036f	http://localhost:3000
+20221105	10:24:04	d12eba3a-ad4c-4bd1-bb4c-8224311a35c5	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	10:25:04	fe91fd84-fac6-4d44-8f39-5bc5fa878e36	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	10:26:03	63630fe6-d9be-47fc-bf45-883eccb71aa4	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	10:47:10	7c5a0065-91d6-4b59-9ed1-b3e957f0bf85	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:02:35	3e071bff-b8fd-4f4a-a59e-5a9857e3b627	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:02:41	dbe4a39e-0d27-459c-a3be-87a3c897072b	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:02:49	58948f72-23a7-47b1-b4c7-3b17b81139b3	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:03:18	635a074a-30ea-4aee-aef8-1f9c61146ffa	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:03:31	45989521-30e3-4154-bb1c-a50e8b08dcac	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:04:22	9e5d1448-3aea-4822-bc44-9e3cd0ad4271	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:04:24	17390dbd-da33-4b9b-ac94-e02d97c5ffd8	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:04:40	01e44543-7033-43e5-a64e-f487e1f34489	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:04:57	e3254f4c-fc7e-4299-8f23-01a0ca353c7a	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:05:02	c5b5235b-297b-4c1a-af84-b4faa4124c0d	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:05:07	e31796df-c5e0-457b-8f88-c0e9100ee907	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:08:18	f77ccf4f-5ef4-429b-ac0c-a5e8b49fafb1	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:08:20	a0f4cd61-c9af-43d5-b3fe-143c1a260995	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:08:36	fe70c55a-c9ef-4a0b-8d82-345c22c525da	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:08:38	aa4016bb-b61d-4ec8-bd03-7ccb2cf0c36d	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:08:45	3625d6ef-2fc3-4dd4-ae08-52d996805b22	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:14:39	262d900c-aecb-4c77-806e-bb63c956a114	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:14:54	650b294f-5ee4-4a6e-90bc-78369c764322	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:31:10	15234fce-2f01-436b-a5b7-9010cd07a2a7	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:31:19	62079196-bbfe-41e3-8898-d9b4bd94aeb1	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:31:24	a4755f36-2166-4abd-a154-f986a3ea02d3	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:44:10	5a0c5393-9e6a-42e7-8800-07b5518a33e0	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:44:31	a2da713e-7401-4255-890f-bce486ecce6a	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:44:36	2c7f649c-ffaf-4321-9220-f80606e0ac19	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:49:54	900298c5-9a6c-4c4b-a616-6c3037c0d365	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:50:01	cd1aa9f9-9cf4-4f33-aa33-5a7de3df84d8	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:50:11	47a40cf6-0b59-4c59-abcd-cff050ea92ac	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	11:54:45	8c1c2b0f-9177-4e65-b3ed-8e40c63c5084	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221105	12:03:15	6e62261a-1284-4881-a1f3-5bdef7e469bc	Error: Not authorized, token failed	DELETE	/favorites/62cc63ae30d5b70ac394036f	http://localhost:3000
+20221105	12:09:05	1a341337-56ba-4b38-a36d-9af40ea81550	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	12:12:49	ef3956ee-b6c7-47a4-af5d-ae015ac11ecc	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221105	12:24:29	7d7f1804-119a-43f4-bfc6-199cfbe1a670	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	12:27:28	db08197a-cc29-415a-97db-45dd27b0f55e	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	12:49:53	15dc4add-ff6c-4c63-bb13-201b3d5e1fed	Error: No token, authorization denied	POST	/favorites/62a7310ae2ecf60b09da58b9	http://localhost:3000
+20221105	12:50:43	10dc0684-0cb6-4498-8f44-d2f45997c1cb	Error: No token, authorization denied	POST	/favorites/62a7310ae2ecf60b09da58b9	http://localhost:3000
+20221105	12:51:52	08b43671-b0a8-4ffd-ba8e-06f3293ba179	Error: No token, authorization denied	POST	/favorites/62a7310ae2ecf60b09da58b9	http://localhost:3000
+20221105	13:07:15	269809ec-40a7-426b-8d80-f67d3bbbfedb	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	13:07:24	86f30f2a-46f9-4d5f-88f2-0eab7c21f4d4	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	13:07:29	e6b6ca67-47e0-4dfd-9a77-38d54fb247e6	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221105	13:07:52	0381524d-1fe2-403d-96d1-cb0c4bf2b4c4	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221106	18:19:39	4075aeaa-837d-47b3-81c0-71a29a9b2aca	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221106	18:20:00	4f91a714-e2b3-4253-9a44-b88590535389	Error: No token, authorization denied	GET	/users/profile	undefined
+20221106	18:21:13	dd8c7c58-60d4-4ecf-8233-ab821ef2503a	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221106	18:57:41	8a4ae453-286b-4545-9d59-9d48ab6b814c	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221106	18:57:56	6e411a47-193f-409b-99f4-6db0a7e33054	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221106	18:57:58	71289ee5-fca9-42c1-bf6e-7f71fe8c349c	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221107	19:27:26	1aba7798-bf9c-4c60-9829-c49fa13c001e	Error: Not authorized, token failed	DELETE	/comments	undefined
+20221107	19:27:49	e59b3188-b275-4399-af08-1cf7a5f6c3f4	Error: Not authorized, token failed	DELETE	/comments	undefined
+20221107	19:35:10	fe0a844b-7f0d-4cb2-84ef-48073df879a3	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221107	19:56:11	1ae60d9e-a93d-41aa-9542-9b5c5e531275	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221107	20:01:02	705b79cb-fa8f-4992-a7f0-47f9130d6b48	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221107	20:01:10	36a1cf64-4feb-40f9-bde0-5a25d65fb59b	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221107	20:01:13	429f9f05-a042-4b96-b3b4-afac3346eeeb	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221107	20:23:25	4b0684ed-c721-4e40-b177-47d16715d788	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221107	20:23:43	ce0ec2ab-72ea-4e26-9675-08d609f0d714	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221107	20:24:25	73d31501-bb8b-4f1c-aaac-811535b1cc3a	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221107	20:24:44	7bec9f1c-1b35-465b-a050-eb54d201185c	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221107	20:25:07	26a802f4-c205-4104-8990-7614893a3d90	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221107	20:42:48	8e922c9d-2fc8-4d4a-8842-d45eb33b62b1	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221107	20:58:49	907493c9-3f71-4be9-8de8-89a230c42f23	Error: Not authorized, token failed	POST	/comments	http://127.0.0.1:5000/
+20221107	20:58:51	98213d33-5d30-41a2-9b8e-eea13f0754c1	Error: Not authorized, token failed	POST	/comments	http://127.0.0.1:5000/
+20221107	21:17:32	547d29bc-f4be-41a8-95b5-8b17d9185e01	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221107	22:13:56	9b328405-a70b-4283-9e36-2472cd65da6b	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221107	22:31:29	3b72827f-4134-4158-92dc-ab7ae023988c	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221108	08:04:42	d3c85081-8d56-448a-a489-57f3815c6f68	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221108	08:04:49	9c0907c3-cce7-4f1a-a955-e819c34ea49c	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221108	08:04:57	0860a869-59d0-4a35-aaba-dfe849455cf4	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221108	18:01:32	20963ca9-dc5c-4ea1-a76f-8f7f2fb440d4	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221108	18:02:12	7267cf2d-e172-4f39-9ada-65bb0b53aa11	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221108	18:34:08	7b2d5f01-ed0b-4aae-b5e1-bdcae8ddb757	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221108	19:08:45	aa2a636b-efcd-4487-bace-8b5f1f8ef765	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221108	19:29:54	87f0603f-3a3f-4a9a-90a8-c5412fe4042b	Error: Not authorized, token failed	DELETE	/favorites/62a7310ae2ecf60b09da58b9	http://localhost:3000
+20221108	19:59:14	b54af865-fee8-4d2b-b594-3e67c602dcd8	Error: No token, authorization denied	PATCH	/comments/636aa622f788d19b594def7c	undefined
+20221108	20:00:36	7ed87b48-be48-4563-9367-4e574e24f817	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221108	20:01:04	e766e242-ac70-4fea-90f7-4adc7f55bd13	Error: No token, authorization denied	PUT	/comments/636aa668f788d19b594def81	http://127.0.0.1:5000/
+20221108	20:01:09	12bfa9f6-597c-4d01-bd79-96f92d67712a	Error: No token, authorization denied	PUT	/comments/636aa67bf788d19b594def85	http://127.0.0.1:5000/
+20221108	22:15:50	26e6ee13-d6b5-4c13-9cee-392c93898b61	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221108	22:17:43	fa9775a7-32e4-4e43-b842-d0b1a1389447	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221108	22:18:12	20b37425-8188-4c3c-8365-06f8278c367e	Error: No token, authorization denied	PUT	/comments/636aa67bf788d19b594def85	http://127.0.0.1:5000/
+20221108	22:20:52	edb1fd0f-9bfc-4287-a33c-679acdbd35e4	Error: No token, authorization denied	PUT	/comments/636aa67bf788d19b594def85	http://127.0.0.1:5000/
+20221108	22:23:15	473cc7bc-383a-439d-8a7f-be6d15bb68e4	Error: No token, authorization denied	PUT	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	22:24:29	acd93843-1f44-4599-a535-19a1298b1021	Error: No token, authorization denied	PUT	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	22:27:48	5fd31c09-4aa4-4244-82ae-34acf59f80c0	Error: No token, authorization denied	PUT	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	22:28:33	3029547a-b3cf-4a46-b367-627621e423ec	Error: No token, authorization denied	PUT	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	22:29:10	a1e11d69-dbd3-4d51-853a-01786c7109ae	Error: No token, authorization denied	PUT	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	22:47:32	188705eb-ce89-49b2-9bd2-ab1217780d83	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221108	22:50:24	2e956f31-7bee-4f5f-93d2-5fdb58500643	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	22:54:35	3abd572c-a681-49cb-861b-c552c6260830	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	22:55:51	e571b541-3090-4216-87bc-976f5ff8fc6e	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	22:56:07	cc427a04-c162-49ad-8206-ab2b59aeb91c	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	22:56:26	6d53db73-6083-42d8-ac7f-ebb93f8f5985	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221108	22:56:50	60c925c9-e89e-4fd4-9614-cd00ecaa746b	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	22:57:10	0c9a0e41-44a5-4724-9f6f-bc86f8802df8	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	22:58:53	1a8adb4d-ea07-4cd5-bac8-4fcfd7a6162d	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	22:59:48	2d417035-ba7e-490c-bda9-038abef5df37	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:03:20	57591498-8e78-4906-882e-f22b0f011358	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:03:31	51fc24ea-bdb1-4df0-a789-06f1f80b89d4	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:04:59	31874012-2f09-48e1-804d-3e6b43f7b213	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:07:14	c2f4571f-2032-4815-a84e-b1f2f4795149	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:07:43	26fccf2d-569c-4502-8d0d-fec06d95bb66	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:08:01	5f171622-b32f-4897-8c23-1d0d4f052b98	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:08:21	c2130b79-c019-4dcb-bebe-5aee5b7f4037	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:10:16	de3f0aee-d8f6-4484-82bd-57a26e1d1361	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:13:04	447bf678-0f05-4b1a-a269-8469e5e88ce0	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:14:48	2c2d6868-a2ec-4345-8a89-415060aaf61b	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:16:29	7dbfe194-77f2-407a-a1db-d9f3fa31f80a	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:17:00	8a167524-8dad-4668-bf97-03f6ca44bf4f	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:17:13	09e030f0-9fe8-49f4-b1a9-4aea57f32319	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:17:49	a1e1ef5a-0ab9-4bd7-b7b2-637cbbdfac73	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:19:56	1e010b63-0abc-4e2a-81cc-8fbe22d16571	SyntaxError: Unexpected token " in JSON at position 0	PATCH	/comments/636ac8a73718e087d05bb141	http://127.0.0.1:5000/
+20221108	23:20:26	c2b2c9ba-3129-456c-826e-ddc4013f6f93	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221108	23:36:13	67075ce5-46c8-4998-9435-b871b6f44f99	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221109	08:42:00	e583c2b2-dd59-451d-9d82-b76dd1409296	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221109	22:23:34	2f7a1e6e-8ae5-426f-b5f2-be630e8432a4	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	09:06:10	5d70e05d-9c4e-4122-a7cb-cd23eaff7a11	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221118	18:55:57	14364e30-1a4f-4a15-a166-3ce9dd99db81	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221118	18:55:58	0f59fe45-67ac-47c5-bf60-a42afc98a8e5	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221118	22:04:24	6dd7bb03-ab16-4e2c-ad06-b312268202d6	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:04:28	d0e09081-128f-4cf7-829d-46580631bdba	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:04:30	c2933d8a-5f06-4595-9531-49b61c495b17	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:05:27	3f80a8d7-2028-423e-aaf1-1be40f17191e	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:05:39	b827732b-0d46-447c-9ef6-637a56d67918	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:06:01	4751f8e6-2138-46bf-8e48-ea84e36d9759	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:06:09	65a5e085-1b9b-42e6-a64b-cf9f861936bc	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:06:11	17574d4d-2fd7-4260-bf72-38784785a11a	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:06:15	94399370-37c1-41d9-9794-24a48897fbf7	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:06:18	627dddf6-e5bf-4483-8b19-2ea2a81667bd	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:06:19	2a6f1a84-0bff-4b90-b3a6-f7ceaf92c674	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:06:21	ba22c382-cade-4a79-a6fa-581547e84ca6	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:06:21	782b3cb4-3292-46c9-8598-e9e7618c4716	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:06:21	8335c927-4220-4a2b-a451-d7a3fad913ed	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:06:43	8a9033a6-e61e-4f8d-aef8-f38a31d08d21	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:07:24	51e9cd29-6598-40ad-aa03-e3be3f66bfd0	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:07:34	19e84475-8ffc-4a0c-9871-3ba6d34668ff	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:08:01	f791535d-ae02-4944-a791-d944476c993b	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:09:42	d44fce85-5e0b-4eb2-99b3-fdb455c61d42	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:09:50	5932d47b-7f63-4419-b645-e82ef6011d60	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:09:58	2e457abf-2c2f-4834-93be-ed5f9d96dbde	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:10:00	af2cd7d6-684c-40f6-ba3c-98a81b9abd08	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:10:58	5e7f1aec-4516-4d7d-97be-bf804f957db5	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:11:02	d91bedc3-46fe-4638-aaf5-db61edcc1f81	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:11:03	e83d484b-63e8-41ef-b0bc-ee554b127277	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:11:05	e0433a1a-2931-4ff9-9146-2b163717d455	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:32:32	05d08a31-7b64-43bd-b34c-984841d6aea2	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221118	22:53:43	0c00fdf2-fc6a-42c9-ab63-b3b3f7ef79b3	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	22:53:44	e6836002-2bfa-47bd-af37-c65180dd2e4d	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221118	23:00:50	ec623808-3dbf-4f7a-8181-14db41edd53e	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221118	23:00:51	e0e502c3-8b93-45b2-99ab-a1dc95e694ad	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/9-bcnMin-v5/frontend/node_modules/gensync/index.js	undefined
+20221118	23:53:35	f10bc16a-d95b-49d5-ad24-a78d5ddb4b63	ReferenceError: nodemailer is not defined	POST	/collab	http://localhost:3000
+20221119	09:03:17	e01bbc8e-4997-4cfd-b28b-ee7417beab2d	Error: Not authorized, token failed	GET	/users/profile	undefined
+20221119	09:03:21	48e4e12f-dc41-45c2-87e1-d27b617e1a47	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221119	09:06:16	c23e9bcb-5a4a-4660-bfe7-09c668d23e7e	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221119	09:07:39	984af51e-0fd6-4462-81c5-7c82f4f11ffe	Error: No token, authorization denied	GET	/Users/patrick/Desktop/Learn/Projects/11-boiletPlate-SlimDown/frontend/node_modules/gensync/index.js	undefined
+20221119	09:07:41	ac1e1ebc-4d8f-4e6c-abfc-f386605fd22c	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221119	09:08:38	e9359fd6-7e40-4875-a70d-93208f674d67	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221119	09:08:39	aa4d0914-e305-41c2-9f90-04167541426f	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221119	09:08:41	81045bf1-2526-4e23-926c-4d6e9961d454	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221119	09:08:41	d2491e94-e61a-488c-aeed-b48542bdf3e8	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221119	09:11:32	12dfe891-e4d8-4fc9-8103-2d9d3fc30ea9	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221119	09:11:33	51f289cb-334d-4bdd-98f1-5ee9232245a1	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221119	09:11:35	a61aef60-26cf-49b7-877e-67388336edc5	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
+20221119	09:19:41	08d887fd-bb4b-4def-a941-82036cd347ae	SyntaxError: Unexpected token } in JSON at position 63	POST	/blogs	undefined
+20221119	09:19:54	acf6554f-2945-450c-a4b9-15ad68ef15d1	MongoWriteConcernError: No write concern mode named 'majorityretryWrites=true' found in replica set configuration	POST	/blogs	undefined
+20221119	09:50:57	eb729f47-112c-48d1-824f-4881fc43aaf5	Error: Not authorized, token failed	GET	/users/profile	http://localhost:3000
