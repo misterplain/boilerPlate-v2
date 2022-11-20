@@ -35,6 +35,16 @@ app.use(logger);
 //cross origin resource sharing
 // app.use(cors(corsOptions));
 app.use(cors("*"));
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,PATCH,DELETE");
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "Content-Type",
+    "Authorization"
+  );
+  next();
+});
 
 // built-in middleware to handle urlencoded form data
 app.use(express.urlencoded({ extended: false }));
@@ -55,7 +65,7 @@ app.use("/register", registerRoutes);
 app.use("/refresh", refreshRoutes);
 app.use("/logout", logoutRoutes);
 app.use("/blogs", blogsRoutes);
-app.use("/collab", collabRoutes)
+app.use("/collab", collabRoutes);
 app.use("/favorites", favoritesRoutes);
 app.use("/comments", commentsRoutes);
 
