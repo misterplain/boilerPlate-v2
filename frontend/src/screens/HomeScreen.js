@@ -3,12 +3,12 @@ import { Row, Col, Card, Button, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
+import { BsHeart, BsHeartFill } from "react-icons/bs";
 //redux
 import { useDispatch, useSelector } from "react-redux";
 import { fetchBlogPosts } from "../actions/blogActions";
 import { addFavorite, removeFavorite } from "../actions/userActions";
 import { getUserDetails } from "../actions/userActions";
-
 
 const FavoriteButton = ({ post }) => {
   const dispatch = useDispatch();
@@ -24,10 +24,9 @@ const FavoriteButton = ({ post }) => {
     }
   }, [setIsFavorite, userData, post]);
 
-
   return (
     <Button
-      variant={isFavorite ? "outline-danger" : "outline-success"}
+      variant='outline-light'
       onClick={
         isFavorite
           ? () => {
@@ -41,7 +40,11 @@ const FavoriteButton = ({ post }) => {
       }
       style={{ margin: "5px" }}
     >
-      {isFavorite ? "Remove Favorite" : "Add Favorite"}
+      {isFavorite ? (
+        <BsHeartFill style={{ color: "green", fontSize: "1.5rem" }} />
+      ) : (
+        <BsHeart style={{ color: "green", fontSize: "1.5rem" }} />
+      )}
     </Button>
   );
 };
@@ -69,12 +72,8 @@ const InformScreen = () => {
         {posts &&
           posts.map((post) => {
             return (
-              <Col
-                key={post._id}
-              >
-                <Card
-                  key={post._id}
-                >
+              <Col key={post._id}>
+                <Card key={post._id}>
                   <Card.Body>
                     <Card.Title>{post.title}</Card.Title>
                     <Card.Text>{post.caption}</Card.Text>

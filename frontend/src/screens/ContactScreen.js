@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import { COLLAB } from "../shared/collab";
-import { Container, Row, Col, Form, Button, Card } from "react-bootstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Form,
+  Button,
+  Card,
+  Modal,
+} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import axios from "../api/axios";
 //form validation
@@ -24,6 +32,7 @@ const collabSchema = Yup.object({
 });
 
 const CollabScreen = () => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <Container className='justify-content-center text-center'>
       <Row className='justify-content-center mb-3'>
@@ -49,7 +58,7 @@ const CollabScreen = () => {
                   console.log(res.data.message);
                   // setBool(false);
                 } else if (res.status === 200) {
-                  console.log(res.data.message); 
+                  console.log(res.data.message);
                   // setBool(false);
                 }
               } catch (error) {
@@ -57,6 +66,7 @@ const CollabScreen = () => {
               }
 
               resetForm();
+              setShowModal(true);
             }}
           >
             {({
@@ -134,6 +144,19 @@ const CollabScreen = () => {
           </Formik>
         </Col>
       </Row>
+      <Modal
+        size='sm'
+        show={showModal}
+        onHide={() => setShowModal(false)}
+        aria-labelledby='example-modal-sizes-title-sm'
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id='example-modal-sizes-title-sm'>
+            Sent successfully
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Thank you!</Modal.Body>
+      </Modal>
     </Container>
   );
 };

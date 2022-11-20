@@ -25,7 +25,7 @@ const sendCollab = asyncHandler(async (req, res) => {
   let mailOptions = {
     from: email,
     to: process.env.GMAIL_USER,
-    subject: `bcnMinimalista - contact from ${name}`,
+    subject: `boilerplate - contact from ${name}`,
     html: `
     <h3>Message from ${name}</h3>
     <p>Message: ${message}</p>
